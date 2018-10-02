@@ -831,7 +831,7 @@ int main(void)
     application_timers_start();
     err_code = ble_advertising_start(BLE_ADV_MODE_FAST);
     APP_ERROR_CHECK(err_code);
-		NRF_LOG_INFO("Turn your magic on...\r\n");
+		NRF_LOG_INFO("Every dream you want to...\r\n");
     // Enter main loop.
     for (;;)
     {
