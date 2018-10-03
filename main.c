@@ -831,7 +831,7 @@ int main(void)
     application_timers_start();
     err_code = ble_advertising_start(BLE_ADV_MODE_FAST);
     APP_ERROR_CHECK(err_code);
-		NRF_LOG_INFO("I feel my heart is beating3\r\n");
+		NRF_LOG_INFO("I feel my heart is beating5\r\n");
     // Enter main loop.
     for (;;)
     {
